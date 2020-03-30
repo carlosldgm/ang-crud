@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +10,7 @@ import { FormControl } from '@angular/forms';
 export class AppComponent {
   // form: FormGroup;
   msg: string;
-  title: string = 'ang-crud';
+  title: string = 'Ejemplo de Angular Crud';
   employees = [
     { rut: "12463391-5", name: "carlos", position: "developer", email: "carlos@gmail.com" },
     { rut: "1-9", name: "nicolas", position: "gerente", email: "nicolas@gmail.com" },
