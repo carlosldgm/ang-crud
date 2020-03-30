@@ -63,6 +63,7 @@
             <button type="submit" class="btn btn-success" (click)="addEmployee()">
               Save
             </button>
+            &nbsp;
             <button type="submit" class="btn btn-primary" (click)="clear()">
               Clear
             </button>
@@ -92,12 +93,13 @@
             <td>{{employee.position}}</td>
             <td>{{employee.email}}</td>
             <td>
-              <a class="btn btn-success" (click)="editEmployee(i)">
+              <button class="btn btn-success" (click)="editEmployee(i)">
                 Edit
-              </a>
-              <a class="btn btn-danger" (click)="deleteEmployee(i)">
+              </button>
+              &nbsp;
+              <button class="btn btn-danger" (click)="deleteEmployee(i)">
                 Delete
-              </a>
+              </button>
             </td>
           </tr>
 
